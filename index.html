@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="pt-BR">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Introdução ao Angular</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h3>Introdução ao...</h3>
+					<img class="" src="img/angular-logo.png" alt="" />
+					<p>
+						<small>Por <a href="http://github.com/anchietajunior">Anchieta Júnior</a></small>
+					</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Pré-requisitos</h2>
+						<p>
+							O que eu devo saber para começar a estudar Angular?
+						</p>
+					</section>
+
+					<section>
+						<ul>
+							<li>HTML</li>
+							<li>CSS + algum Framework Front-end (Bootstrap, SemanticUI, Material Design Lite, etc)</li>
+							<li>API's RESTful</li>
+							<li>JSON</li>
+							<li>Javascript</li>
+						</ul>
+					</section>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Boa pergunta</h2>
+						<p>Onde e quando utilizar Angular?</p>
+					</section>
+					<section>
+						<h2>Projetos web</h2>
+						<ul>
+							<li>Sites</li>
+							<li>Blogs</li>
+							<li>Sistemas complexos</li>
+						</ul>
+					</section>
+					<section>
+						<img class="" src="img/plunker.png" alt="" />
+						<h2>Plunker</h2>
+					</section>
+					<section>
+						<img class="" src="img/plunker-editor.png" alt="" />
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Start</h2>
+						<p>
+							Como faço pra começar um projeto Angular?
+						</p>
+					</section>
+					<section>
+						<p>
+							Vai parecer mentira
+						</p>
+					</section>
+
+					<section>
+						<img class="" src="img/angular-site.png" alt="" />
+					</section>
+
+					<section>
+						<img class="" src="img/projeto-sublime.png" alt="" />
+					</section>
+
+					<section>
+						<p>É isso ai. :)</p>
+					</section>
+				</section>
+
+
+
+				<section>
+					<section>
+						<h2>Diretivas</h2>
+						<p>What?</p>
+					</section>
+					<section>
+						<p>
+							"Instrução ou conjunto de instruções para a execução de um plano, uma ação, um empreendimento etc"
+						</p>
+					</section>
+
+					<section>
+						<p>
+							As diretivas do Angular "turbinam" o HTML e deixam disponíveis novos comportamentos para os elementos em uma página web
+						</p>
+					</section>
+
+					<section>
+						<h2>ngApp</h2>
+						<p>
+							Nossa primeira diretiva
+						</p>
+					</section>
+
+					<section>
+						<p>
+							Adicionando a diretiva ng-app e atribuindo um nome
+						</p>
+						<img class="" src="img/ng1.png" alt="" />
+					</section>
+
+					<section>
+						<p>
+							Erros, console e feedback.
+						</p>
+						<img class="" src="img/ng2.png" alt="" />
+					</section>
+
+					<section>
+						<p>
+							Adicionando arquivo js e ativando nossa app
+						</p>
+						<img class="" src="img/ng3.png" alt="" />
+					</section>
+
+					<section>
+						<p>
+							Verificando os erros novamente
+						</p>
+						<img class="" src="img/ng4.png" alt="" />
+					</section>
+
+					<section>
+						<h2>Expressions</h2>
+						<p>
+							Teste simples.
+						</p>
+					</section>
+
+					<section>
+						<p>
+							Utilizando "mustaches" em expressões
+						</p>
+						<img class="" src="img/ng5.png" alt="" />
+					</section>
+
+					<section>
+						<p>
+							Resultado
+						</p>
+						<img class="" src="img/ng6.png" alt="" />
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+						<h2>ngController</h2>
+						<p>
+							Segunda diretiva e entendendo o MVC do Angular
+						</p>
+					</section>
+					<section>
+						<p>
+							MVC, MVP, MVVM...
+						</p>
+					</section>
+					<section>
+						<h2>
+							MVW.
+						</h2>
+					</section>
+
+					<section>
+						<h2>
+							Model View e tanto faz
+						</h2>
+					</section>
+
+					<section>
+						<h2>
+							Model, Controller e Scope
+						</h2>
+					</section>
+
+					<section>
+						<p>
+							Exemplo
+						</p>
+						<h2>
+							<img class="" src="img/ng7.png" alt="" />
+						</h2>
+					</section>
+
+					<section>
+						<p>
+							Criando o controller, view e recebendo um valor
+						</p>
+						<h2>
+							<img class="" src="img/ng8.png" alt="" />
+						</h2>
+					</section>
+
+					<section>
+						<p>
+							Definindo o controller, scope e nosso retorno
+						</p>
+						<h2>
+							<img class="" src="img/ng9.png" alt="" />
+						</h2>
+					</section>
+
+					<section>
+						<p>
+							Resultado
+						</p>
+							<img class="" src="img/ng10.png" alt="" />
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+						<h2>ngrepeat</h2>
+						<p>
+							Lendo JSON e exibindo em uma tabela
+						</p>
+					</section>
+
+					<section>
+						<h2>Bootstrap</h2>
+						<p>
+							Adicionando bootstrap e melhorando a visualização
+						</p>
+					</section>
+
+					<section>
+						<p>Importar para o projeto e chamada na página html</p>
+						<img class="" src="img/ng11.png" alt="" />
+					</section>
+
+					<section>
+						<p>Criando a estrutura da tabela.</p>
+						<img class="" src="img/ng12.png" alt="" />
+					</section>
+
+					<section>
+						<p>Resultado.</p>
+						<img class="" src="img/ng13.png" alt="" />
+					</section>
+
+					<section>
+						<p>Lendo o JSON users.json</p>
+						<img class="" src="img/ng14.png" alt="" />
+					</section>
+
+					<section>
+						<p>Referenciando nosso arquivo users.json e passando seus dados para um array através de uma function</p>
+						<img class="" src="img/ng15.png" alt="" />
+					</section>
+
+					<section>
+						<h2>Core Service $http</h2>
+						<p>
+							"Disponibiliza métodos de atalho, no qual o único requisito é a URL a ser processada."
+						</p>
+					</section>
+
+					<section>
+						<h2>ngrepeat</h2>
+						<p>Exibindo os dados na nossa tabela.</p>
+						<img class="" src="img/ng16.png" alt="" />
+					</section>
+
+					<section>
+						<p>Resultado</p>
+						<img class="" src="img/ng17.png" alt="" />
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+						<h2>Viajando na Maionese</h2>
+					</section>
+					<section>
+						<p>
+							O que poderiamos fazer com isso ?
+						</p>
+					</section>
+					<section>
+						<p>
+							Uma API que disponibiliza a lista de clientes ou usuários de uma grande coorporação
+						</p>
+						<ul>
+							<li>Autenticação</li>
+							<li>Adicionar um novo usuário ou cliente</li>
+							<li>Excluir-lo</li>
+							<li>Filtros de pesquisa</li>
+						</ul>
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+						<h2>Referências</h2>
+					</section>
+					<section>
+						<ul>
+							<li>Rodrigo Branas - Canal no Youtube</li>
+							<li>Tableless - http://tableless.com.br/diretivas-angularjs-abas/</li>
+							<li>Webcodegeeks - http://www.webcodegeeks.com/javascript/angular-js/angular-js-json-fetching-example/</li>
+							<li>w3cschools - http://www.w3schools.com/json/</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2>Valeu</h2>
+				</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
